@@ -44,7 +44,7 @@
 	<script>
 				//use http://raspberryPi.local if your using Avahi Service
 				//or use your RasperryPi IP instead
-				var socket = io.connect('http://192.168.1.31:1');
+				var socket = io.connect('http://10.8.67.47');
 				socket.on('connect', function(data) {
 					socket.emit('screen');
 				});
