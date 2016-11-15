@@ -6,7 +6,7 @@ socket.on('connect', function(data){
 	//Youtube
 	var Youtube = {
 		getVideo: function(query, socket){
-			var apiKey = "{YOUR API KEY HERE}"
+			var apiKey = "IzaSyDOB7yYD2E_NK1P0HnPrgCN_hKmP-DYSIo"
 			var max_videos = 25;
 			var url = "https://www.googleapis.com/youtube/v3/search?order=viewcount&part=snippet&q=" + escape(query) + "&type=video+&videoDefinition=high&key=" + apiKey + "&maxResults="+ max_videos;
 
